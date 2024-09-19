@@ -1,0 +1,388 @@
+
+@media screen and (max-width: 768px) {
+    .nav_search, .nav_item_text {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+  
+      /* Показать гамбургер */
+    }
+  
+    .nav_items {
+      display: flex;
+      justify-content: space-between;
+      max-width: 100%;
+    }
+  
+    .nav_item_text.active {
+      display: block;
+      position: absolute;
+      margin-top: 10px;
+      padding-left: 10px;
+      width: 70px;
+      border-radius: 5px;
+      color: #ec5c4c;
+      border-bottom: #E98074 solid 2px;
+      font-weight: 500;
+        height: 111px;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .nav-text {
+      padding-right: 30px;
+  
+      &:last-child {
+        padding-right: 0px;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .hamburger {
+      margin-left: 0;
+    }
+   
+  
+    .nav_items {
+      display: flex;
+      margin-right: 0;
+      margin: 0px 10px 0px 10px;
+    }
+  
+    .nav-text {
+      padding-right: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .section_info {
+      max-width: 900px;
+      justify-content: center;
+    }
+  
+    .main__info {
+      max-width: 900px;
+      margin: auto;
+    }
+  
+    .section_info_img {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+  
+    .section_info_btn {
+      width: 140px;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .section_info {
+      max-width: 600px;
+      max-height: 500px;
+      justify-content: center;
+  
+      h1 {
+        font-size: 25px;
+        font-weight: 300;
+      }
+  
+      h2 {
+        font-size: 17px;
+      }
+    }
+  
+    .main__info {
+      max-width: 600px;
+      margin: auto;
+    }
+  
+    .section_info_items {
+      width: 400px;
+    }
+  
+    .info_contact span {
+      margin-right: 10px;
+    }
+  
+    .section_info_img {
+      width: 63%;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      box-sizing: content-box;
+  
+      img {
+        max-width: 250px;
+        box-sizing: content-box;
+      }
+    }
+  
+    .section_info_btn {
+      width: 130px;
+      margin-right: 10px;
+    }
+  
+    .span-info {
+      width: 35px;
+      cursor: pointer;
+    }
+  
+    .info_contact {
+      margin-right: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .main__info {
+      max-width: 450px;
+      margin: auto;
+      max-height: 700px;
+    }
+  
+    .section_info_img {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      padding-top: 25px;
+    }
+  
+    .section_info_btn {
+      width: 130px;
+      margin-right: 10px;
+    }
+  
+    .info_contact span {
+      margin-right: 10px;
+    }
+  
+    .span-info {
+      width: 35px;
+      cursor: pointer;
+    }
+  
+    .section_info {
+      display: block;
+      max-width: 450px;
+      max-height: 550px;
+    }
+  
+    .section_info_items {
+      margin-left: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .section_info_items {
+      max-width: 305px;
+    }
+    .span-info {
+      margin-right: 7px;
+    }
+  
+    .main__info {
+      padding-top: 140px;
+    }
+  
+    .section_info_btn:hover {
+      background-color: #EAE7DC;
+    }
+  
+    .section_info {
+      justify-content: center;
+    }
+  
+    .section_info_btn {
+      margin-right: 15px;
+    }
+  }
+  
+
+
+
+
+
+  @media screen and (max-width: 1000px) {
+    .container__card_skills {
+      max-width: 70%;
+    }
+  
+    .card_skills {
+      margin: auto;
+      border-bottom: #E98074 solid 1px;
+      max-width: 70px;
+  
+      img {
+        max-width: 70px;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .container__card_skills {
+      max-width: 70%;
+    }
+  
+    .card_skills {
+      margin-left: 25px;
+      max-width: 100px;
+      margin: auto;
+  
+      &:last-child {
+        margin-bottom: 20px;
+      }
+    }
+  
+    .border {
+      margin: 0px auto 150px;
+    }
+  
+    .card_skills img {
+      max-width: 70px;
+    }
+  
+    .container__card_skills {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .card_skills:last-child {
+      margin-bottom: 20px;
+    }
+  
+    .border {
+      margin: 0px auto 110px;
+    }
+  
+    .container__card_skills {
+      max-width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .card_skills img {
+      max-width: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .main__project {
+      max-width: 700px;
+    }
+  
+    .span_project {
+      height: 350px;
+    }
+  
+    .nav_project {
+      max-width: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .main__project {
+      max-width: 500px;
+      margin-bottom: 100px;
+      height: 750px;
+    }
+  
+    .item_project {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      height: 500px;
+      margin-bottom: 10px;
+    }
+  
+    .span_project {
+      height: 45%;
+      width: 90%;
+      order: 2;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+  
+    .h2_project {
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+  
+    .text_content_project {
+      font-size: 14px;
+    }
+  
+    .img_projects {
+      order: 1;
+      width: 95%;
+      padding-top: 50px;
+      height: 55%;
+  
+      img {
+        height: 75%;
+        max-width: 90%;
+      }
+    }
+  
+    .nav_project {
+      max-width: 30px;
+    }
+  
+    .tittle_project {
+      margin-bottom: 39px;
+    }
+  
+    .main__skills {
+      margin-bottom: 100px;
+    }
+  
+    #Arow1 {
+      margin-right: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .form {
+      h1 {
+        margin-bottom: 35px;
+        width: 90%;
+        font-size: 25px;
+        font-weight: 300;
+      }
+  
+      h2 {
+        font-size: 15px;
+        font-weight: 300px;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    #message {
+      height: 70px;
+    }
+
+  
+  
+    .form {
+      padding-left: 20px;
+
+      
+
+      h1 {
+        margin-bottom: 25px;
+        font-size: 18px;
+        margin-top: 10px;
+      font-weight: 500;}
+
+      h2 {
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: 400;}
+    }
+
+   
+  }
+  

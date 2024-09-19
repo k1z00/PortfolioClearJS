@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    <body class="body">
+      <nav class="navbar">
+        <div class="nav_items">
+          <div class="icons">
+            <img
+              src="public/images/free-icon-transparency-1355174.png"
+              alt="Icon"
+              class="icon_img"
+            />
+          </div>
+          <div class="burg_content">
+            <button class="hamburger" type="button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+            <div class="nav_item_text">
+              <p class="nav-text" id="Skills">Skills</p>
+              <p class="nav-text" id="Projects" >Projects</p>
+              <p class="nav-text" id="message">Contact</p>
+            </div>
+          </div>
+  
+          <div class="nav_search">
+            <input
+              type="text"
+              placeholder="Search"
+              id="search"
+              class="search-field"
+            />
+            <img src="public/images/free-icon-loupe-622605.png" alt="" class="search-icon" />
+          </div>
+        </div>
+      </nav>
+      <main class="main1">
+        <div class="main__info">
+          <section class="section_info">
+            <div class="section_info_img">
+              <img src="public/images/photo_2024-09-04_15-51-14-Photoroom.png" alt="" />
+            </div>
+            <div class="section_info_items">
+              <h1>Меня зовут Кирилл</h1>
+              <h2>
+                Я занимаюсь изучением <br />
+                языков програмирования
+              </h2>
+              <div class="info_contact">
+                <button class="section_info_btn" id="button-info">
+                  Связь сo мной
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+  
+        <div class="border"></div>
+  
+        <div class="main__skills">
+          <h1 class="text__skills">Мои навыки</h1>
+            <div class="container__card_skills">
+            <div class="card_skills">
+              <img src="public/images/free-icon-html-5-5968267.png" alt="">
+              <p>HTML</p>
+            </div>
+            <div class="card_skills">
+              <img src="public/images/free-icon-css-3-5968242.png" alt="">
+              <p>CSS</p>
+            </div>
+            <div class="card_skills">
+              <img src="public/images/free-icon-js-5968292.png" alt="">
+              <p>JS</p>
+            </div>
+            <div class="card_skills">
+              <img src="public/images/25231.png" alt="">
+              <p>GitHub</p>
+            </div>
+            <div class="card_skills">
+              <img src="public/images/png-clipart-node-js-javascript-express-js-web-server-firebase-icon-angle-text.png" alt="">
+              <p>NodeJs</p>
+            </div>
+            <div class="card_skills">
+              <img src="public/images/bootstrap--v1.png" alt="">
+              <p>Bootstrap</p>
+            </div>
+            <div class="card_skills">
+              <img src="public/images/react-logo-1000-transparent.png" alt="">
+              <p>React</p>
+            </div>
+            <div class="card_skills">
+              <img src="public/images/programming.png" alt="">
+              <p>Backend</p>
+            </div>
+            <div class="card_skills">
+              <img src="public/images/png-transparent-typescript-plain-logo-icon-thumbnail.png" alt="">
+              <p>TypeScript</p>
+            </div>
+           </div>
+        </div>
+        <div class="main__project">
+          <div class="container_project">
+            <h1 class="tittle_project">Мои проекты</h1>
+            <div class="items_card_project">   
+              <div class="item_project">
+                <div class="span_project">
+                  <h2 class="h2_project"></h2>
+                  <p class="text_content_project"></p>
+                  
+                </div>   
+                 <div class="img_projects">
+                  <img src="" alt="" class="img_progect">  
+                 </div>
+              </div>  
+          <div class="navs_project">
+            <img src="public/images/arrow-left_icon-icons.com_72376.svg" alt="" class="nav_project" id="Arow1">
+            <img src="public/images/arrow-right_icon-icons.com_72375.svg" alt="" class="nav_project" id="Arow2"> 
+          </div>
+        </div>
+            
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="massage__email">     
+        <form action="" class="form">
+          <h1>Отправьте мне сообщение на email</h1>
+          <div class="footer__name">
+            <h2>Имя</h2>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя...">
+          </div>
+          <div class="footer__email">
+            <h2>Email</h2>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email..." >
+          </div>
+             <div class="footer__messege">
+              <h2>Сообщение</h2>
+              <textarea name="message" id="message" placeholder="Введите ваше сообщение..."></textarea>
+             </div>  
+             <div class="radio">
+              <input type="radio" id="radio" name="radio" >
+              <p>Даю свое согласие на обработку данных</p>
+             </div>
+             <button class="button-message">Отправить</button>   
+  
+        </form>
+      </div>
+      </footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

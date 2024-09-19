@@ -1,0 +1,45 @@
+.main__skills {
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 200px;
+    h1{
+      margin-bottom: 50px;
+    }
+  }
+  
+  .container__card_skills {
+    display: grid;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    grid-template-columns: repeat(3, 3fr);
+    border: #E98074 solid 1px;
+    gap: 30px;
+    border-radius: 5px;
+  }
+  
+  .card_skills {
+    display: block;
+    max-height: 200px;
+    max-width: 200px;
+    border-bottom: #E98074 solid 1px;
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+    img {
+      max-width: 80px;
+      padding-top: 20px;
+    }
+  
+    p {
+      color: rgb(17, 17, 17);
+      font-weight: 400;
+    }
+   
+  }
+  
+  .text__skills {
+    text-align: center;
+  }
+  

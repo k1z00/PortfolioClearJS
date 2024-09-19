@@ -1,0 +1,92 @@
+.footer {
+    display: block;
+    opacity: 0.9;
+    box-shadow: 10px 10px 10px #5e5353;;
+    background-color: #3d3737;
+    color: aliceblue;
+
+  }
+
+  
+  .massage__email {
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  .form {
+    max-width: 1000px;
+    box-sizing: border-box;
+    padding-left: 100px;
+    margin: auto;
+  
+    input::placeholder, textarea::placeholder {
+      color: #5e5353;
+    }
+  
+    input {
+      border-top-width: 0;
+      border-left-width: 0;
+      border-right-width: 0;
+      border-bottom-width: 1px;
+      border-color: #0a0909;
+    }
+  
+    h1 {
+      margin-bottom: 45px;
+      font-size: 30px;
+      font-weight: 500;
+      margin-top: 70px;
+    
+    }
+  
+    h2 {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .footer__name input, .footer__email input {
+    height: 30px;
+    width: 80%;
+    background-color: #EAE7DC;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    color: #000000;
+  }
+  
+  .radio {
+    display: flex;
+    font-weight: 400;
+  
+    input {
+      margin-right: 20px;
+    }
+  }
+  
+  textarea {
+    width: 80%;
+    height: 100px;
+    resize: none;
+    background-color: #EAE7DC;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    color: #000000;
+  }
+  
+  .button-message {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color: #EAE7DC;
+    border: 0;
+    
+    color: #5e5353;
+  }

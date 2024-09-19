@@ -1,0 +1,104 @@
+.navbar {
+    display: flex;
+    background-color: #EAE7DC;
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .nav_items {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 5px 0px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    color: #201b1b;
+    font-weight: 200;
+  }
+  
+  .nav_item_text {
+    display: flex;
+    font-weight: 700;
+  }
+  
+  .nav-text {
+    padding-right: 100px;
+    cursor: pointer;
+  
+    &:last-child {
+      padding-right: 0px;
+    }
+  }
+  
+  .icons img {
+    width: 50px;
+    margin-top: 3px;
+  }
+  
+  /*Бургер навигационной панели*/
+  
+  .hamburger {
+    display: none;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: rgb(17, 17, 17);
+    transition: all 0.3s ease;
+  }
+  
+  .hamburger.active .bar {
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: relative;
+  }
+  
+  /*Input Навигационно панели*/
+  
+  .nav_search {
+    display: flex;
+    border: 1px solid #E98074;
+    border-radius: 30px;
+    padding: 10px;
+    height: 20px;
+    background-color: #EAE7DC;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: 1;
+    cursor: pointer;
+  }
+  
+  .search-field {
+    width: 200px;
+    border: 0;
+    background-color: #EAE7DC;
+    color: rgb(15, 15, 15);
+    outline: none;
+  }
+  
+  input.search-field::placeholder {
+    color: #E98074;
+  }
+  
+  .search-field:focus {
+    outline: none;
+  }
